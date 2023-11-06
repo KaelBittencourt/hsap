@@ -58,4 +58,9 @@ header .header__right .header__image .background {
         margin: 2rem auto 4rem;
     }
 
+    header .header__right .header__image .background {
+        margin: -8rem -8rem 0rem;
+        width: 90%;
+    }
+
 }

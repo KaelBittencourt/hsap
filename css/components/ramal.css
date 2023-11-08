@@ -24,7 +24,7 @@
 }
 
 .ramal .ramal__content ul li .image-conteiner {
-    background-color: rgba(66, 66, 66, 0.286);
+    background-color: rgb(203, 203, 203);
     padding: 2rem;
     border-radius: 50%;
     width: 5rem;
@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.0);
     margin: 0 auto;
 }
 

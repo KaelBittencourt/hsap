@@ -1,7 +1,8 @@
 .ramal {
     background-color: white;
     scroll-margin-top: 15rem;
-    margin-top: 45rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .ramal .ramal__content {
@@ -16,14 +17,14 @@
 
 .ramal .ramal__content ul {
     margin: auto;
-    width: 70%;
+    width: 60%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
     gap: 5rem;
 }
 
 .ramal .ramal__content ul li .image-conteiner {
-    background-color: rgba(0, 255, 21, 0.286);
+    background-color: rgba(75, 75, 75, 0.286);
     padding: 2rem;
     border-radius: 50%;
     width: 5rem;
@@ -31,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0.4rem 2rem rgba(14, 122, 5, 0.1);
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.0);
     margin: 0 auto;
 }
 

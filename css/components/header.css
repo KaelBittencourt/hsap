@@ -9,6 +9,7 @@ header {
 header .header__left {
     max-width: 62rem;
     flex: 1;
+    margin-top: 10rem;
 }
 
 header .header__left p {

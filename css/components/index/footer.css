@@ -1,5 +1,8 @@
 footer {
-    background-color: var(--light-tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-tertiary-color);  
 }
 
 footer .footer__content {

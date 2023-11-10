@@ -1,7 +1,7 @@
 .formulario {
     margin-bottom: 16rem;
-    scroll-margin-top: 15rem;   
-    margin-top: -5rem;
+    scroll-margin-top: 5rem;   
+    margin-top: -18rem;
 }
 
 .formulario .formulario__content {
@@ -10,15 +10,21 @@
     margin: 0 auto 6rem;
 }
 
+
+
 .formulario ul li {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 4rem;
+    margin-right: 10px;
+    text-align: left;
 }
 
 .formulario ul li.formulario__reversed-list {
     flex-direction: row-reverse;
+    margin-left: 10px;
+    text-align: right;
 }
 
 .formulario ul li:not(:last-of-type) {
@@ -33,6 +39,17 @@
     border-radius: 8px;
 }
 
+.formulario .formulario__info button {
+    margin-top: 2rem;
+    width: 40%;
+    cursor: pointer;
+}
+
+.formulario .formulario__info p {
+    line-height: 25px;
+    margin-top: 20px;
+}
+
 .formulario ul li .formulario__info {
     max-width: 47rem;
 }
@@ -45,7 +62,6 @@
     font-weight: 500;
     text-decoration: underline;
 }
-
 
 @media only screen and (max-width: 768px) {
     .formulario ul li,

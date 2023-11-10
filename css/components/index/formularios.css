@@ -1,6 +1,7 @@
 .formulario {
     margin-bottom: 16rem;
     scroll-margin-top: 15rem;   
+    margin-top: -5rem;
 }
 
 .formulario .formulario__content {

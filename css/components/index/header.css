@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    scroll-margin-top: 20rem;
+    scroll-margin-top: 20rem;   
 }
 
 header .header__left {
@@ -12,11 +12,14 @@ header .header__left {
     margin-top: 10rem;
 }
 
+
 header .header__left p {
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
 }
+
+
 
 header .header__right .header__image {
     position: relative;
@@ -37,6 +40,14 @@ header .header__right .header__image .background {
     right: 4.5rem;
     z-index: -1;
 }
+
+header .header__right .header__image {
+    position: relative;
+    line-height: 0;
+    margin-top: 5rem;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     header {

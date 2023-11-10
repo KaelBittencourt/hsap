@@ -1,28 +1,30 @@
-.link {
+.web {
     background-color: var(--light-tertiary-color);
-    margin-top: 1rem;
+    scroll-margin-top: 15rem;
+    margin-top: 20rem;
 }
 
-.link .link__content {
+.web .web__content {
     padding: 6rem 4rem;
     text-align: center;
 }
 
-.link__content p {
-    margin-bottom: 50px;
+.web .web__content p {
+    margin-bottom: 5rem;
 }
 
-.link__content h2 {
-    font-size: 50px;
+.web .web__content .description {
+    max-width: 56rem;
+    margin: 0 auto 6rem;
 }
 
-.link .link__content ul {
+.web .web__content ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 }
 
-.link .link__content ul li .image-conteiner {
+.web .web__content ul li .image-conteiner {
     background-color: rgba(0, 0, 255, 0.411);
     padding: 2rem;
     border-radius: 50%;
@@ -35,7 +37,7 @@
     margin: 0 auto;
 }
 
-.link .link__content ul li h3 {
+.web .web__content ul li h3 {
     font-size: 1.6rem;
     font-weight: 500;
     margin: 3rem 0 1rem;

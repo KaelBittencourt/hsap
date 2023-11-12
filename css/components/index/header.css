@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    scroll-margin-top: 20rem;   
+    scroll-margin-top: 20rem; 
 }
 
 header .header__left {

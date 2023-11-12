@@ -8,14 +8,14 @@ footer {
 footer .footer__content {
     text-align: center;
     padding: 6rem 2rem 1rem;
-    max-width: 100rem;
+    max-width: 100%;
 }
 
 footer .footer__content h2 {
     font-size: 4.5rem;
     text-align: center;
     padding: 6rem 2rem 1rem;
-    max-width: 100rem;
+    max-width: 100%;
 }
 
 footer .footer__content .footer__contact span {

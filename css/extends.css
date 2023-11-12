@@ -5,7 +5,8 @@
 @import './components/index/header.css';
 @import './components/index/about.css';
 @import './components/index/link.css';
-@import './components/index/formularios.css';
+@import './components/index/direcionamento.css';
 @import './components/index/footer.css';
 @import './components/index/btn-whatsapp.css';
 @import './components/ramal/ramal.css';
+@import './components/formularios/formulario.css';

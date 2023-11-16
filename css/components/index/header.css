@@ -14,11 +14,16 @@ header .header__left {
     margin-top: 15rem;
 }
 
+header .header__left h2 {
+    margin-left: 2px;
+}
+
 
 header .header__left p {
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-bottom: 4rem;
     max-width: 50rem;
+    margin-left: 2px;
 }
 
 

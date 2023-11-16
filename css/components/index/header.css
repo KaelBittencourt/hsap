@@ -4,14 +4,14 @@ header {
     max-width: 120rem;
     padding: 0 4rem;
     margin: 0 auto;
-    margin-bottom: 40rem;
-    margin-top: 20rem;
+    margin-bottom: 20rem;
+    margin-top: 10rem;
 }
 
 header .header__left {
     max-width: 62rem;
     flex: 1;
-    margin-top: 15rem;
+    margin-top: 20rem;
 }
 
 header .header__left h2 {
@@ -35,7 +35,7 @@ header .header__right .header__image {
 
 
 
-header .header__right .header__image .kael {
+header .header__right .header__image {
     border-radius: 0.5rem;
     min-width: 25rem;
     max-width: 100%;
@@ -50,8 +50,10 @@ header .header__right .header__image .background {
 
 header .header__right .header__image {
     position: relative;
+    left: 10rem;
     line-height: 0;
-    margin-top: 5rem;
+    margin-top: -7rem;
+
 }
 
 

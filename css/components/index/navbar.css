@@ -8,17 +8,22 @@
 }
 
 .navbar .navbar__content {
-    padding: 3rem 4rem 1rem;
+    padding: 1rem 3rem 1rem;
     display: flex;
     justify-content: space-between;
 }
 
 .navbar .navbar__content .navbar__links li {
     display: inline-block;
+    margin-top: 44px;
 }
 
 .navbar .navbar__content .navbar__links li:not(:last-of-type) {
     margin-right: 2rem;
+}
+
+.navbar .navbar__content a {
+    margin-left: -13px;
 }
 
 .navbar .navbar__content .navbar__links a {

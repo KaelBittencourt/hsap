@@ -4,6 +4,14 @@
     margin-top: -5rem;
 }
 
+.formulario p {
+    margin-top: 20px;
+}
+
+.formulario button {
+    margin-top: 10px;
+}
+
 .formulario .formulario__content {
     max-width: 56rem;
     text-align: center;
@@ -30,7 +38,7 @@
     min-width: 40rem;
     max-width: 47rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .formulario ul li .formulario__info {

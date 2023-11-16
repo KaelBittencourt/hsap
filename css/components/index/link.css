@@ -1,7 +1,7 @@
 .web {
     background-color: var(--light-tertiary-color);
-    scroll-margin-top: 15rem;
-    margin-top: 20rem;
+    scroll-margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 .web .web__content {
@@ -25,7 +25,7 @@
 }
 
 .web .web__content ul li .image-conteiner {
-    background-color: rgba(0, 0, 255, 0.411);
+    background-color: rgba(0, 255, 17, 0.513);
     padding: 2rem;
     border-radius: 50%;
     width: 11rem;

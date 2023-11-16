@@ -24,12 +24,12 @@
 	<nav class="navbar">
 		<div class="navbar__content max-width mb-0">
 			<a href="#">
-				<img src="assets/HSAP.svg" width="70" alt="Kael Bitencourt" data-aos="fade-right" data-aos-delay="500" />
+				<img src="assets/LOGO VILA NOVA-01.png" width="300" alt="logo"/>
 			</a>
 			<ul class="navbar__links" data-aos="fade-down" data-aos-delay="500">
 				<li><a href="#">Início</a></li>
-				<li><a href="#web">Web apps</a></li>
-				<li><a href="ramal.html">Ramal</a></li>
+				<li><a href="#web">Web</a></li>
+				<li><a href="#formulario">Outros</a></li>
 				<li><a href="#footer">Ouvidoria</a></li>
 			</ul>
 
@@ -37,9 +37,9 @@
 			<div class="navbar__mobile">
 				<img src="assets/menu.svg" alt="menu" class="burguer" data-aos="fade-down" data-aos-delay="500" />
 				<ul class="mobile__links">
-					<li><a href="index.html">Início</a></li>
-					<li><a href="#web">Web apps</a></li>
-					<li><a href="ramal.html">Ramal</a></li>
+					<li><a href="#">Início</a></li>
+					<li><a href="#web">Links</a></li>
+					<li><a href="#formulario">Formulários</a></li>
 					<li><a href="#footer">Ouvidoria</a></li>
 				</ul>
 			</div>
@@ -47,10 +47,10 @@
 	</nav>
 
 	<!-- header -->
-	<header id="header" class="max-width">
+	<header id="header" class="header">
 		<div class="header__left" data-aos="fade-left" data-aos-delay="400">
-			<h1>Olá!,<br>seja bem vindo!</h1>
-			<h2>Este é o portal do colaborador</h2>
+			<h1>Bem vindo!</h1>
+			<h2>Este é o Portal do Colaborador</h2>
 			<p>Sinta-se à vontade para explorar.</p>
 			<!--<a href="#links" class="btn btn-primary">Saiba Mais!</a>-->
 		</div>
@@ -65,23 +65,14 @@
 	</header>
 
 	<!-- Web -->
+
 	<section id="web" class="web">
 		<div class="web__content max-width" data-aos="zoom-out" data-aos-delay="300">
-			<h2 class="tertiary-title">Web apps</h2>
+			<h2 class="tertiary-title">Serviços Web</h2>
 			<p>
 				Acesse de maneira rápida e pratica alguns serviços Web.
 			</p>
 			<ul>
-				<!-- Animati -->
-				<li class="link__item">
-					<div class="image-conteiner">
-						<a href="http://192.168.0.200/login" target="_blank">
-							<img src="assets/animati.png" alt="animati" width="105">
-						</a>
-					</div>
-					<h3><strong>Animati</strong></h3>
-				</li>
-
 				<!-- Google -->
 				<li class="link__item">
 					<div class="image-conteiner">
@@ -90,35 +81,73 @@
 						</a>
 					</div>
 					<h3><strong>Google</strong></h3>
+					<p>
+						Direcionamento para pagina de pesquisa.
+					</p>
+				</li>
+
+				<!-- Animati -->
+				<li class="link__item">
+
+					<div class="image-conteiner">
+						<a href="http://192.168.0.200/login" target="_blank">
+							<img src="assets/animati.png" alt="animati" width="105">
+						</a>
+					</div>
+
+					<h3><strong>Animati</strong></h3>
+
+					<p>
+						Visualizador de imagens avançado para interpretação de exames de média e alta
+						complexidade.
+					</p>
+
 				</li>
 
 				<!-- Google Document -->
 				<li class="link__item">
+
 					<div class="image-conteiner">
-						<a href="https://docs.google.com/document/u/0/" target="_blank">
+						<a href="https://sso-16-pro.procempa.com.br/auth/realms/saude/protocol/openid-connect/auth?client_id=gerint&redirect_uri=https%3A%2F%2Fgerint.procempa.com.br%2Fgerintweb%2F%3Fredirect_fragment%3D%252F&state=941a89ec-53ed-4b7f-85e5-9fada33018b1&response_type=code" target="_blank">
 							<img src="assets/googledoc.png" alt="google" width="105">
 						</a>
 					</div>
+
 					<h3><strong>Google Documentos</strong></h3>
+					
+					<p>
+						Serviço google semelhante ao Word.<br>
+						É necessário apenas logar uma conta gmail para usar.
+					</p>
+
 				</li>
 
 				<!-- Google Sheets -->
 				<li class="link__item">
+
 					<div class="image-conteiner">
 						<a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">
 							<img src="assets/googleplanilhas.png" alt="google" width="105">
 						</a>
 					</div>
+
 					<h3><strong>Google Planilhas</strong></h3>
+
+					<p>
+						Serviço google semelhante ao Excel.<br>
+						É necessário apenas logar uma conta gmail para usar.
+					</p>
+
 				</li>
 			</ul>
 		</div>
 	</section>
 
-	<!-- direcionamento -->
-	<section id="direcionamento" class="direcionamento max-width">
+	<!-- Outros -->
+	<section id="formulario" class="formulario max-width">
 		
-		<div class="direcionamento__content" data-aos="fade-in" data-aos-delay="300">
+		<div class="formulario__content" data-aos="fade-in" data-aos-delay="300">
+			<h2 class="secondary-title">Outros Serviços</h2>
 		</div>
 
 		<ul>
@@ -126,10 +155,10 @@
 			<li data-aos="fade-right" data-aos-delay="300">
 
 				<div class="image">
-					<img src="assets/eventoadverso.jpg" alt="direcionamentos" />
+					<img src="assets/eventoadverso.jpg" alt="Formularios" />
 				</div>
 
-				<div class="direcionamento__info">
+				<div class="formulario__info">
 
 					<h3 class="tertiary-title">
 						Formulários
@@ -138,76 +167,56 @@
 					<p>
 						Acesse os formulários utilizando um email fornecido pela instituição e preencha conforme as exigências.
 					</p>
-					<button class="btn btn-primary"><a href="#"></a>Acessar</button>
+					<button class="btn btn-primary"><a href="formulario.html"></a>Acessar</button>
 
 				</div>
 
 			</li>
 
-			<li class="direcionamento__reversed-list" data-aos="fade-left" data-aos-delay="300">
+			<li class="formulario__reversed-list" data-aos="fade-left" data-aos-delay="300">
 				<div class="image">
 					<img src="assets/higienedemaos.png" alt="higiene de maos" />
 				</div>
-				<div class="direcionamento__info">
+				<div class="formulario__info">
 					<h3 class="tertiary-title">
 						Treinamentos
 					</h3>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam tempora, consequuntur consequatur omnis neque in tenetur illo expedita. Pariatur nisi error reiciendis quisquam aut cupiditate qui numquam sunt modi?
+						Acesse o formulário utilizando um email fornecido pela instituição e preencha o forms conforme as
+						exigências.
 					</p>
-					<button class="btn btn-primary"><a href=""></a>em desenvolvimento</button>
+					<button class="btn btn-primary"><a href="#"></a>Acessar</button>
 					
 				</div>
 			</li>
 		</ul>
 	</section>
 
-	<!-- ramal 
-	<section id="ramal" class="ramal max-width">
-		
-		<div class="ramal__content" data-aos="fade-in" data-aos-delay="300">
-		</div>
-		<ul>
-			<li data-aos="fade-right" data-aos-delay="300">
-				<div class="image">
-					<img src="assets/eventoadverso.jpg" alt="ramals" />
-				</div>
-				<div class="ramal__info">
-					<h3 class="tertiary-title">Formulários</h3>
-					<p>
-						Acesse os formulários utilizando um email fornecido pela instituição e preencha conforme as exigências.
-					</p>
-					<button class="btn btn-primary"><a href="#"></a>Acessar</button>
-				</div>
-			</li>
-		</ul>
-	</section>
-	-->
 
 	<!-- Footer -->
 	<footer id="footer">
-		<div class="footer__content mb-0">
-			<h2 class="tertiary-title mb-s">Teria algo à relatar?</h2>
+		<div class="footer__content max-width mb-0">
 			<h3 class="tertiary-title mb-s">Entre em contato com nossa Ouvidoria.</h3>
 			<p class="mb-m">Seu feedback é de extrema importância para continuarmos a evoluir a qualidade de nossos serviços!
 			</p>
 			<div class="footer__contact mb-l">
-				<span>ouvidoria@gmail.com<br>+55 51 9 9999 9999</span>
+				<span>ouvidoriaahvn.hsap@gmail.com<br>+55 51 9 9999 9999</span>
 			</div>
 
 			<ul class="mb-l">
-				<p>Faça parte também de nossas redes sociais</p>
 				<li>
-					<a href="https://www.instagram.com/hospitalsantoantoniodapatrulha/" target="_blank"><img
-							src="assets/instagram.svg" alt="Instagram" /></a>
+					<a href="https://www.instagram.com/hospitalsantoantoniodapatrulha/" target="_blank" rel="external"><img
+							src="assets/instagram.png" width="40" alt="Instagram" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+					<a href="#" target="_blank" rel="external"><img
+							src="assets/facebook.png" width="40" alt="Instagram" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+					<a href="#" target="_blank" rel="external"><img
+							src="assets/linkedin.png" width="40" alt="Instagram" /></a>
 				</li>
-				<h5></h5>
+				
 			</ul>
 			<p class="footer__copyright">© 2023 Michael de Favere Bitencourt.
 				Todos os direitos reservados.
@@ -217,12 +226,12 @@
 
 
 	<!-- Button Whatsapp -->
-	<!--
-	<a href="ramal.html" class="btn-whatsapp " target="" data-aos="fade-up" data-aos-delay="300">
+	
+	<a href="#" class="btn-whatsapp " target="" data-aos="fade-up" data-aos-delay="300">
 		<img src="assets/foneramal.png" alt="Botao whatsapp" />
 		<span class="tooltip-text">Ramais</span>
 	</a>
-	-->
+	
 
 
 	<!-- script -->

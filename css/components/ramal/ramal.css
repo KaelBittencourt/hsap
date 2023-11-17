@@ -1,46 +1,71 @@
-.ramal {
-    background-color: white;
-    scroll-margin-top: 15rem;
-    margin-top: -15rem;
-    margin-bottom: 10rem;
-}
-
-.ramal .ramal__content {
-    padding: 6rem 4rem;
-    text-align: center;
-}
-
-.ramal .ramal__content .description {
-    max-width: 56rem;
-    margin: 0 auto 6rem;
-}
-
-.ramal .ramal__content ul {
-    margin: auto;
-    width: 60%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-    gap: 5rem;
-}
-
-.ramal .ramal__content ul li .image-conteiner {
-    background-color: rgb(203, 203, 203);
-    padding: 2rem;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+ramal {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    max-width: 130rem;
+    padding: 0 4rem;
     margin: 0 auto;
+    margin-bottom: 15rem;
+    margin-top: -14rem;
 }
 
-.ramal .ramal__content ul li h3 {
-    margin-top: 1rem;
-    font-size: 1.6rem;
-    margin: 3rem auto 5;
+ramal .ramal__right {
+    margin-top: 15rem;
+    margin-left: -20rem;
 }
 
-.ramal .ramal__content ul li p {
-    font-size: 1.5rem;    
+ramal .ramal__right h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
+
+
+ramal .ramal__right .ramal_conteiner {
+    max-width: 600px;
+    font-size: 14px;
+    padding-right: 20px;
+    
+    /* ou qualquer valor desejado para o contêiner */
+    
+}
+ramal .ramal__right .ramal_conteiner ul {    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+ramal .ramal__right .ramal_conteiner .ramal_number {
+    margin-bottom: 15px;
+    list-style-type: disc;
+    width: 45%;
+    justify-content: auto;
+}
+
+ramal .ramal__left a img {
+    
+    
+}
+
+ramal .ramal__left .ramal__image {
+    position: relative;
+    line-height: 0;
+}
+
+
+
+ramal .ramal__left .ramal__image {
+    border-radius: 0.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+}
+
+
+ramal .ramal__left .ramal__image {
+    position: relative;
+    right: 6rem;
+    line-height: 0;
+    top: 5rem;
+
+}
+

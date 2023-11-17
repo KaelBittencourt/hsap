@@ -1,5 +1,5 @@
 .direcionamento {
-    margin-bottom: 16rem;
+    margin-bottom: 10rem;
     scroll-margin-top: 5rem;   
     margin-top: -18rem;
     scroll-margin-top: 12rem;
@@ -28,9 +28,7 @@
     text-align: right;
 }
 
-.direcionamento ul li:not(:last-of-type) {
-    margin-bottom: 12rem;
-}
+
 
 .direcionamento ul li .image img {
     width: 100%;

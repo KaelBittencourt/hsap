@@ -2,6 +2,7 @@
     background-color: var(--light-tertiary-color);
     scroll-margin-top: 15rem;
     margin-top: 10rem;
+    width: 100%;
 }
 
 .web .web__content {
@@ -25,11 +26,10 @@
 }
 
 .web .web__content ul li .image-conteiner {
-    background-color: rgba(0, 255, 17, 0.513);
     padding: 2rem;
     border-radius: 50%;
     width: 11rem;
-    height: 11rem;
+    height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;

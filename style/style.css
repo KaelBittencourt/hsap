@@ -6,6 +6,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.site {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+
 
 a {
   text-decoration: none;
@@ -50,6 +56,7 @@ nav .nav-links ul li:hover {
 
 
 .services {
+  flex: 1;
   background-color: #18ca0400;
   color: #232224;
   display: flex;

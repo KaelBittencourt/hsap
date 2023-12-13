@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+
+nav .nav-links ul {
+  display: flex;
+
+}
+
+nav .nav-links ul li {
+  display: flex;
+  padding-left: 40px;
+  font-weight: 600;
+  color: #066621;
+}
+
+nav .nav-links ul li:hover {
+  color: rgb(6, 213, 51);
+  transform: transition(0.1s);
+  z-index: 1;
+}
+
+
+
+.services {
+  background-color: #18ca0400;
+  color: #232224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 14px;
+  margin-top: 30px;
+}
+
+.services p {
+  font-weight: 600;
+}
+
+.services-content h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #066621;
+  font-weight: 600;
+}
+
+.services-content p {
+  font-weight: 600;
+  text-align: center;
+  max-width: 780px;
+}
+
+.especialidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0 44px 34px 44px;
+}
+
+.especialidade {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+.especialidade:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.especialidade img {
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.5s;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.especialidade img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+
+
+.especialidade-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.especialidade-info button {
+  color: #fff;
+  background-color: #066621;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  border: 0;
+  transition: transform 0.1s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.especialidade button:hover {
+  background-color: rgb(5, 171, 41);
+  transform: transition(0.1s);
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .especialidades {
+    flex-direction: column;
+  }
+
+  .especialidade img {
+    max-width: 740px;
+  }
+}
+
+
+footer {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-color: #0c7329f9;
+  font-size: 12px;
+  font-weight: 300;
+  height: 40px;
+  margin-top: 117px;
+  color: white;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+

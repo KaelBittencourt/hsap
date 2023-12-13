@@ -1,221 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
-	<!-- Meta tags -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Title -->
-	<title>HSAP</title>
-	<!-- CSS -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-	<!-- Script -->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<link rel="stylesheet" href="css/extends.css" />
-	<!-- Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800;1,600&display=swap"
+    rel="stylesheet">
+  <title>Intranet-HSAP</title>
 </head>
-
 <body>
-	<!-- navbar -->
-	<nav class="navbar" data-aos="fade-down" data-aos-delay="250">
-		<div class="navbar__content max-width mb-0">
-			<a href="#">
-				<img src="assets/LOGO VILA NOVA-01.png" width="300" alt="logo"/>
-			</a>
-			<ul class="navbar__links">
-				<li><a href="#"><strong>Início</strong></a></li>
-				<li><a href="#web"><strong>Web</strong></a></li>
-				<li><a href="ramal.html"><strong>Ramais</strong></a></li>
-				<li><a href="#footer"><strong>Ouvidoria</strong></a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<!-- header -->
-	<header id="header" class="header">
-		<div class="header__left" data-aos="fade-left" data-aos-delay="400">
-			<h1>Bem vindo!</h1>
-			<h2>Este é o Portal do Colaborador</h2>
-			<p>Sinta-se à vontade para explorar.</p>
-			<!--<a href="#links" class="btn btn-primary">Saiba Mais!</a>-->
-		</div>
-		<div class="header__right" data-aos-delay="300">
-			<div class="header__image">
-				<img src="assets/World health day-rafiki.svg" alt="Kael Bitencourt" class="kael" width="700" data-aos="fade-left"
-					data-aos-delay="500" />
-				<!--<img src="assets/abstract.svg" alt="background" class="background" width="500" data-aos="fade-left"
-					data-aos-delay="500" />-->
-			</div>
-		</div>
-	</header>
-
-	<!-- Web -->
-	<section id="web" class="web">
-		<div class="web__content max-width" data-aos="zoom-out" data-aos-delay="300">
-			<h2 class="tertiary-title">Serviços Web</h2>
-			<p>
-				Acesse de maneira rápida e pratica alguns serviços Web.
-			</p>
-			<ul>
-				<!-- Animati -->
-				<li class="link__item">
-				
-					<div class="image-conteiner">
-						<a href="http://192.168.0.200/login" target="_blank">
-							<img src="assets/animati.png" alt="animati" width="105">
-						</a>
-					</div>
-					<h3><strong>Animati</strong></h3>
-				</li>
-				
-				<!-- Google Document -->
-				<li class="link__item">
-				
-					<div class="image-conteiner">
-						<a href="https://docs.google.com/document/u/0/" target="_blank">
-							<img src="assets/googledoc.png" alt="google" width="105">
-						</a>
-					</div>
-					<h3><strong>Google Docs</strong></h3>
-				</li>
-				
-				<!-- Google Sheets -->
-				<li class="link__item">
-				
-					<div class="image-conteiner">
-						<a href="https://docs.google.com/spreadsheets/u/0/" target="_blank">
-							<img src="assets/googleplanilhas.png" alt="google" width="105">
-						</a>
-					</div>
-				
-					<h3><strong>Google Planilhas</strong></h3>
-				</li>
-
-				<!-- Gerint -->
-				<li class="link__item">
-				
-					<div class="image-conteiner">
-						<a href="https://gerint.procempa.com.br/gerintweb/" target="_blank">
-							<img src="assets/web/gerint.png" alt="animati" width="105">
-						</a>
-					</div>
-					<h3><strong>Gerint</strong></h3>
-				</li>
-
-				<!-- Gercon -->
-				<li class="link__item">
-				
-					<div class="image-conteiner">
-						<a href="https://sso-16-pro.procempa.com.br/auth/realms/saude/protocol/openid-connect/auth?client_id=gercon&redirect_uri=https%3A%2F%2Fgercon.procempa.com.br%2Fgerconweb%2F%3Fredirect_fragment%3D%252F&state=293b628c-1612-49bd-8ac9-16e533df82c9&response_type=code" target="_blank">
-							<img src="assets/web/gercon.png" alt="animati" width="105">
-						</a>
-					</div>
-					<h3><strong>Gercon</strong></h3>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<!-- direcionamento -->
-	<section id="direcionamento" class="direcionamento max-width">
-		
-		<div class="direcionamento__content" data-aos="fade-in" data-aos-delay="300">
-			<h2 class="secondary-title"></h2>
-		</div>
-
-		<ul>
-
-			<li data-aos="fade-right" data-aos-delay="300">
-
-				<div class="image">
-					<img src="assets/Checklist-rafiki.svg" alt="direcionamentos" />
-				</div>
-
-				<div class="direcionamento__info">
-
-					<h3 class="tertiary-title">
-						Formulários
-					</h3>
-
-					<p>
-						Acesse os formulários utilizando um email fornecido pela instituição e preencha conforme as exigências.
-					</p>
-					<a href="formulario.html"><button class="btn btn-primary">Acessar</button></a>
-				</div>
-
-			</li>
-
-			<!--
-			<li class="direcionamento__reversed-list" data-aos="fade-left" data-aos-delay="300">
-				<div class="image">
-					<img src="assets/Studying-rafiki.svg" alt="higiene de maos" />
-				</div>
-				<div class="direcionamento__info">
-					<h3 class="tertiary-title">Treinamentos</h3>
-					<h2 style="color: red;">Obs: Estamos desenvolvendo</h2>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore impedit id a et minima vel cupiditate, atque placeat nemo fugit accusantium voluptatem facere perspiciatis adipisci sunt, modi obcaecati hic.
-					</p>
-					<a><button class="btn btn-primary">Acessar</button></a>
-					
-				</div>
-			</li>
-			-->
-		</ul>
-	</section>
+  <nav>
+    <div class="nav-content">
+      <div class="nav-logo">
+        <img width="380px" src="assets/hsap-logo/LOGO VILA NOVA-04.png" alt="">
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li>
+            
+          </li>
+          <li>
+            <a href="pages/Contatos/ramal.html">Contatos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="footer__content max-width mb-0">
-			<h3 class="tertiary-title mb-s">Entre em contato com nossa Ouvidoria.</h3>
-			<p class="mb-m">Seu feedback é de extrema importância para continuarmos a evoluir a qualidade de nossos serviços!
-			</p>
-			<div class="footer__contact mb-l">
-				<span>ouvidoriahsap.ahvn@gmail.com<br>+55 51 9 9999 9999</span>
-			</div>
+  <!-- SERVICES -->
+  <section class="services">
+  
+    <div class="services-content container">
+      <h3>Escolha de acordo com sua equipe</h3>
+    </div>
+  
+    <section class="especialidades">
+      
+      <div class="especialidade">
+        <a href="pages/medicos/medicos.html">
+          <img src="assets/especialidades/medicos.svg" alt="médicos" />
+        </a>
+        <div class="especialidade-info">
+          <a href="pages/medicos/medicos.html">
+            <button>
+              MÉDICOS
+            </button>
+          </a>
+        </div>
+      </div>
+  
+      <div class="especialidade">
+        <a href="pages/enfermagem/enfermagem.html">
+          <img src="assets/especialidades/enfermagem.svg" alt="enfermagem" />
+        </a>
+        <div class="especialidade-info">
+          <a href="pages/enfermagem/enfermagem.html">
+            <button>
+              ENFERMAGEM
+            </button>
+          </a>
+        </div>
+        
+      </div>
+  
+      <div class="especialidade">
+        <a href="#">
+          <img src="assets/especialidades/sad.svg" alt="sad" />
+        </a>
+        <div class="especialidade-info">
+          <button>
+            SAD
+          </button>
+        </div>
+      </div>
 
-			<ul class="mb-l">
-				<li>
-					<a href="https://www.instagram.com/hospitalsantoantoniodapatrulha/" target="_blank" rel="external"><img
-							src="assets/instagram.png" width="40" alt="Instagram" /></a>
-				</li>
-				<li>
-					<a><img
-							src="assets/facebook.png" width="40" alt="Instagram" /></a>
-				</li>
-				<li>
-					<a><img
-							src="assets/linkedin.png" width="40" alt="Instagram" /></a>
-				</li>
-				
-			</ul>
-			<p class="footer__copyright">© 2023 Michael de Favere Bitencourt.
-				Todos os direitos reservados.
-			</p>
-		</div>
-	</footer>
+      <div class="especialidade">
+        <a href="#">
+          <img src="assets/especialidades/recepcao.svg" alt="recepção" />
+        </a>
+        <div class="especialidade-info">
+          <a href="#">
+            <button>
+              RECEPÇÃO
+            </button>
+          </a>
+        </div>
+      </div>
+      
+    </section>
+    <p>Após escolher você sera redirecionado para uma pagina dedicada ao seu campo de atuação aqui no HSAP com atalhos e informações pertinentes a sua respectiva rotina.</p>
 
+  </section>
 
-	<!-- Button Whatsapp -->
-	
-	<a href="ramal.html" class="btn-whatsapp " target="" data-aos="fade-up" data-aos-delay="300">
-		<img src="assets/foneramal.png" alt="Botao whatsapp" />
-		<span class="tooltip-text">Ramais</span>
-	</a>
-	
-
-
-	<!-- script -->
-	<script src="scripts/index.js"></script>
-	<script src="scripts/script.js"></script>
-
-
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer__content">
+      <p class="footer__copyright">Developed by Michael de Favere Bitencourt © 2023.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+  
 
 </body>
-
 </html>

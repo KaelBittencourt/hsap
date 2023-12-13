@@ -44,7 +44,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
 }
 
 
@@ -98,7 +98,7 @@ nav .nav-links ul li:hover {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 60%;
+  width: 80%;
 }
 
 .especialidades {

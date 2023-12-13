@@ -55,14 +55,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 40%;
 }
 
 
-nav .nav-links ul {
-  display: flex;
-
-}
 
 nav .nav-links ul li {
   display: flex;

@@ -31,13 +31,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
 }
 
 
 nav .nav-links ul {
-  display: flex;
-
+  margin-right: 20px;
 }
 
 nav .nav-links ul li {

@@ -205,7 +205,7 @@ nav .nav-links ul li:hover {
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   /*overflow: hidden;*/
-  
+  padding: 30px;
   cursor: pointer;
   transition: transform 0.5s;
   min-width: 70%;
@@ -230,14 +230,13 @@ nav .nav-links ul li:hover {
 
 .img-conteiner img {
   width: 300px;
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
 
 }
 
 .text-conteiner {
-  
   width: 500px;
   margin-right: 200px;
   margin-left: 50px;

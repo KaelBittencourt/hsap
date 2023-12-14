@@ -10,8 +10,9 @@
 
 a {
   text-decoration: none;
-  color: inherit;  
+  color: inherit;
 }
+
 /* ------------------------- FIM - RESET CSS ------------------------- */
 /* ------------------------------------------------------------------- */
 
@@ -23,6 +24,7 @@ a {
   flex-direction: column;
   min-height: 100vh;
 }
+
 /* ------------------------- FIM - BODY ----------------------------- */
 /* ------------------------------------------------------------------ */
 
@@ -65,6 +67,7 @@ nav .nav-links ul li:hover {
   transform: transition(0.1s);
   z-index: 1;
 }
+
 /* ------------------------- FIM - NAVBAR ---------------------------- */
 /* ------------------------------------------------------------------- */
 
@@ -93,13 +96,7 @@ nav .nav-links ul li:hover {
   font-weight: 600;
 }
 
-.services-conteiner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 80%;
-}
+
 
 .especialidades {
   display: flex;
@@ -118,7 +115,7 @@ nav .nav-links ul li:hover {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
-  overflow: hidden;
+  /*overflow: hidden;*/
   cursor: pointer;
   transition: transform 0.5s;
   padding: 20px;
@@ -181,6 +178,7 @@ nav .nav-links ul li:hover {
     max-width: 740px;
   }
 }
+
 /* ------------------------- FIM - WEB SERVICES ---------------------- */
 /* ------------------------------------------------------------------- */
 
@@ -192,6 +190,9 @@ nav .nav-links ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+
 }
 
 
@@ -203,12 +204,13 @@ nav .nav-links ul li:hover {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
-  overflow: hidden;
+  /*overflow: hidden;*/
+  
+  cursor: pointer;
   transition: transform 0.5s;
   min-width: 70%;
-  max-width: 70%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
 .conteiner-forms:hover {
@@ -217,7 +219,7 @@ nav .nav-links ul li:hover {
 }
 
 
-.formsconteiner-left{
+.formsconteiner-left {
   display: flex;
   flex-direction: row;
 }
@@ -226,14 +228,24 @@ nav .nav-links ul li:hover {
   margin-left: 60px;
 }
 
+.img-conteiner img {
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
 .text-conteiner {
-  padding: 50px;
+  
   width: 500px;
   margin-right: 200px;
+  margin-left: 50px;
 }
 
 .text-conteiner h1 {
   margin-bottom: 40px;
+  color: #066621;
 }
 
 .text-conteiner p {
@@ -309,5 +321,6 @@ footer .footer__content p {
   max-width: 100%;
 
 }
+
 /* ------------------------- FIM - FOOTER ---------------------------- */
 /* ------------------------------------------------------------------- */

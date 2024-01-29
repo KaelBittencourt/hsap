@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/reset.css">
   <link rel="stylesheet" href="style/enfermagem-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
   <title>ENFERMAGEM</title>
 </head>
 
-<body class="site">
+<body class="container">
 
   <!---------------------------------------------------------->
   <!-- NAV / HOME -->
@@ -39,144 +40,98 @@
 
 
 
-  <!---------------------------------------------------------->
-  <!-- WEB - SERVICES - FULLSECTION -->
-  <section class="services">
-
-    <div class="services-content">
-      <h3>Enfermagem</h3>
-    </div>
+  <main>
+    <!---------------------------------------------------------->
+    <!-- WEB - SERVICES - FULLSECTION -->
+    <section class="services">
+      <div class="services-content">
+        <h3>Enfermagem</h3>
+      </div>
     
-    <section class="services-conteiner">
-      <div class="especialidades">
-        <!---------------------------------------------------------->
-        <!-- ANIMATI -->
-        <div class="especialidade">
-          <a href="http://192.168.0.200/login" target="_blank">
-            <img src="assets/animati.png" alt="Animati / exames de imagem" />
-          </a>
-          <div class="especialidade-info">
-            <a href="http://192.168.0.200/login" target="_blank">
+      <section class="services-conteiner">
+        <div class="especialidades">
+          <!-- ANIMATI -->
+          <a class="especialidade" href="http://192.168.0.200/login" target="_blank">
+            <div class="especialidade-info">
               <h4>Exames CDI</h4>
-            </a>
-          </div>
-        </div>
-        <!-- FIM - ANIMATI -->
-        <!---------------------------------------------------------->
-
-        <!---------------------------------------------------------->
-        <!-- LABORATÓRIO FONTANA -->
-        <div class="especialidade">
-          <a href="http://laudos2.fontanalaboratorioclinico.com.br/webscola/" target="_blank">
-            <img src="assets/fontana.png" alt="laboratório fontana" />
+              <img src="assets/animati.png" alt="Animati / exames de imagem" />
+            </div>
           </a>
-          <div class="especialidade-info">
-            <a href="http://laudos2.fontanalaboratorioclinico.com.br/webscola/" target="_blank">
+          <!-- EXAMES LAB -->
+          <a class="especialidade" href="http://laudos2.fontanalaboratorioclinico.com.br/webscola/" target="_blank">
+            <div class="especialidade-info">
               <h4>Exames LAB</h4>
-            </a>
-          </div>
-        </div>
-        <!-- FIM - LABORATÓRIO FONTANA -->
-        <!---------------------------------------------------------->
-        
-
-        <!---------------------------------------------------------->
-        <!-- GERINT -->
-        <div class="especialidade">
-          <a href="https://gerint.procempa.com.br/gerintweb/" target="_blank">
-            <img src="assets/gerint.png" alt="gerint" />
+              <img src="assets/fontana.png" alt="Laboratório Fontana" />
+            </div>
           </a>
-          <div class="especialidade-info">
-            <a href="https://gerint.procempa.com.br/gerintweb/" target="_blank">
+          <!-- GERINT -->
+          <a class="especialidade" href="https://gerint.procempa.com.br/gerintweb/" target="_blank">
+            <div class="especialidade-info">
               <h4>Gerint</h4>
-            </a>
-          </div>
-        </div>
-        <!-- FIM - GERINT -->
-        <!---------------------------------------------------------->  
-
-        <!---------------------------------------------------------->
-        <!-- GOOGLE -->
-        <div class="especialidade">
-          <a href="https://www.google.com" target="_blank">
-            <img src="assets/google.png" alt="google" />
+              <img src="assets/gerint.png" alt="Gerint" />
+            </div>
           </a>
-          <div class="especialidade-info">
-            <a href="https://www.google.com" target="_blank">
+          <!-- GOOGLE -->
+          <a class="especialidade" href="https://www.google.com" target="_blank">
+            <div class="especialidade-info">
               <h4>Google</h4>
-            </a>
-          </div>
-        </div>
-        <!-- FIM - GOOGLE -->
-
-        <!-- Banco de Horas -->
-        <div class="especialidade">
-          <a href="https://docs.google.com/spreadsheets/d/15nDG9xvdrPwgpNPNx8i9JRcuU7hQQL3XIJhCOlr6zUo/edit#gid=1885897841" target="_blank">
-            <img src="assets/icone_bancodehoras.png" alt="Banco de horas" />
+              <img src="assets/google.png" alt="Google" />
+            </div>
           </a>
-          <div class="especialidade-info">
-            <a href="https://docs.google.com/spreadsheets/d/15nDG9xvdrPwgpNPNx8i9JRcuU7hQQL3XIJhCOlr6zUo/edit#gid=1885897841" target="_blank">
+          <!-- BANCO DE HORAS -->
+          <a class="especialidade" href="https://docs.google.com/spreadsheets/d/15nDG9xvdrPwgpNPNx8i9JRcuU7hQQL3XIJhCOlr6zUo/edit#gid=1885897841" target="_blank">
+            <div class="especialidade-info">
               <h4>Banco de Horas</h4>
-            </a>
-          </div>
-        </div>
-        <!-- FIM - Banco de Horas -->
-        <!---------------------------------------------------------->
-
-        <!-- diluição de medicamentos -->
-        <div class="especialidade">
-          <a href="https://docs.google.com/spreadsheets/d/1WV7qsgwxt7jSLkk7acqcUdUVn7IpVjLd/edit?sharingaction=ownershiptransfer#gid=1764089371" target="_blank">
-            <img src="assets/diluicaomed.png" alt="diluição de medicamentos" />
+              <img src="assets/icone_bancodehoras.png" alt="Banco de Horas" />
+            </div>
           </a>
-          <div class="especialidade-info">
-            <a href="https://docs.google.com/spreadsheets/d/1WV7qsgwxt7jSLkk7acqcUdUVn7IpVjLd/edit?sharingaction=ownershiptransfer#gid=1764089371" target="_blank">
+          <!-- DILUIÇÃO DE MEDICAMENTOS -->
+          <a class="especialidade" href="https://docs.google.com/spreadsheets/d/1WV7qsgwxt7jSLkk7acqcUdUVn7IpVjLd/edit?sharingaction=ownershiptransfer#gid=1764089371" target="_blank">
+            <div class="especialidade-info">
               <h4>Diluição de Medicamentos</h4>
+              <img src="assets/diluicaomed.png" alt="Manual de Diluição de medicamentos" />
+            </div>
+          </a>
+          <!-- NOTIFICAÇÕES DE EVENTO -->
+          <a class="especialidade" href="pages/notificacoes-enfermagem/notificacoes-enfermagem.html" >
+            <div class="especialidade-info">
+              <h4>Notificações</h4>
+              <img src="assets/alert.png" alt="Notificações de Evento Adverso" />
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- FIM - WEB SERVICES - FULLSECTION -->
+    <!---------------------------------------------------------->
+    <section class="section-forms">
+    
+      <div class="conteiner-forms">
+    
+        <div class="formsconteiner-left">
+    
+          <div class="img-conteiner">
+            <img src="assets/checklist.png" width="500px" alt="">
+          </div>
+    
+        </div>
+        <div class="formsconteiner-text">
+          <div class="text-conteiner">
+            <h1>Formulários</h1>
+            <p>
+              Acesse os formulários utilizando um email e preencha conforme as exigências.
+            </p>
+            <a href="pages/formularios-enfermagem/forms.html">
+              <button>
+                Acessar
+              </button>
             </a>
           </div>
         </div>
-        <!-- FIM - diluição de medicamentos -->
-        <!---------------------------------------------------------->
       </div>
     </section>
-  </section>
-  <!-- FIM - WEB SERVICES - FULLSECTION -->
-  <!---------------------------------------------------------->
-
-
-
-
-  <section class="section-forms">
-    
-    <div class="conteiner-forms">
-      
-      <div class="formsconteiner-left">
-        
-        <div class="img-conteiner">
-          <img src="assets/checklist.png" width="500px" alt="">
-        </div>
-        
-
-      </div>
-
-      <div class="formsconteiner-text">
-        <div class="text-conteiner">
-          <h1>Formulários</h1>
-          <p>
-            Acesse os formulários utilizando um email e preencha conforme as exigências.
-          </p>
-          <a href="pages/formularios-enfermagem/forms.html">
-            <button>
-              Acessar
-            </button>
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section class="divider"></section>
+    <section class="divider"></section>
+  </main>
 
 
   

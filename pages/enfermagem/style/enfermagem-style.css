@@ -151,16 +151,17 @@ nav .nav-links ul li:hover {
 .conteiner-forms {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   transition: transform 0.5s;
-  min-width: 70%;
-  max-width: 70%;
+  min-width: 68%;
+  max-width: 50%;
   margin-top: 50px;
   margin-bottom: 50px;
+  gap: 100px;
 }
 
 .conteiner-forms:hover {
@@ -172,15 +173,19 @@ nav .nav-links ul li:hover {
   display: flex;
   flex-direction: row;
 }
-
-.img-conteiner {
-  margin-left: 60px;
+.formsconteiner-left img {
+  display: flex;
+  max-width: 400px;
+  min-width: 300px;
+  margin-left: 70px;
 }
 
+
 .text-conteiner {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 500px;
-  margin-right: 200px;
 }
 
 .text-conteiner h1 {
@@ -191,7 +196,7 @@ nav .nav-links ul li:hover {
 .text-conteiner p {
   margin-bottom: 30px;
   font-weight: 500;
-  color: #545554dd;
+  color: #2f2f2fdd;
 }
 
 .text-conteiner button {

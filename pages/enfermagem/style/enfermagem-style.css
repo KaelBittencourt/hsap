@@ -191,12 +191,14 @@ nav .nav-links ul li:hover {
 .text-conteiner h1 {
   margin-bottom: 40px;
   color: #066621;
+  font-size: 24px;
 }
 
 .text-conteiner p {
   margin-bottom: 30px;
   font-weight: 500;
   color: #2f2f2fdd;
+  
 }
 
 .text-conteiner button {
@@ -223,6 +225,26 @@ nav .nav-links ul li:hover {
   height: 150px;
 }
 
+
+@media screen and (max-width: 1482px) {
+  .section-forms .conteiner-forms {
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+  }
+
+  .section-forms .conteiner-forms img {
+    min-width: 350px;
+    margin: 0;
+  }
+
+  .text-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 
 /* --- FOOTER --- */
 footer {

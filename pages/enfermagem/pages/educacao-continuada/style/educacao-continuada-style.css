@@ -3,7 +3,6 @@
 main {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .services {
@@ -12,12 +11,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
-  justify-content: center;
 }
 
 .services p {
   font-weight: 600;
+  padding: 1rem;
 }
 
 .services-content {
@@ -25,7 +23,7 @@ main {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .services-content h3 {

@@ -47,12 +47,11 @@
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
-  cursor: pointer;
+  cursor: default;
   transition: transform 0.5s;
   padding: 20px;
   min-width: 400px;
   max-width: 300px;
-
 }
 
 .especialidade:hover {
@@ -113,16 +112,37 @@
   }
 }
 
-.ramal_conteiner {
+.ramal_conteiner-internos {
   display: flex;
   align-items: center;
   justify-content: baseline;
 }
 
-.ramal_conteiner ul li {
+.ramal_conteiner-internos ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 60px;
+  width: 100%;
   font-weight: 500;
-  margin-bottom: 40px;
   list-style-type: none;
 }
 
 
+.ramal_number a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ramal_number a img {
+  margin-left: 10px;
+}
+
+.ramal_number img {
+  width: 50px;
+}
+
+li {
+  padding: 10px;
+}

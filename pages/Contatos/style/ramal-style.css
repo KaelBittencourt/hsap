@@ -135,12 +135,11 @@
   gap: 5px;
 }
 
-.ramal_number a img {
-  margin-left: 10px;
-}
+
 
 .ramal_number img {
-  width: 50px;
+  width: 36px;
+  margin-left: 10px;
 }
 
 li {

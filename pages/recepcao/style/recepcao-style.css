@@ -3,6 +3,13 @@
 @import url(/style/reset.css);
 /* --- FIM - RESET CSS --- */
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* --- WEB SERVICES --- */
 .services {
   flex: 1;
@@ -10,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .services-content h3 {

@@ -1,98 +1,15 @@
-/* ------------------------------------------------------------------- */
-/* ------------------------- RESET CSS ------------------------------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* ------------------------- FIM - RESET CSS ------------------------- */
-/* ------------------------------------------------------------------- */
+/* --- RESET CSS --- */
+@import url(/style/reset.css);
 
 
-/* ------------------------------------------------------------------ */
-/* ------------------------- BODY CONFIG ---------------------------- */
-.site {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-/* ------------------------- FIM - BODY ----------------------------- */
-/* ------------------------------------------------------------------ */
-
-
-/* ------------------------------------------------------------------ */
-/* ------------------------- BODY CONFIG ---------------------------- */
-.site {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-/* ------------------------- FIM - BODY ----------------------------- */
-/* ------------------------------------------------------------------ */
-
-
-
-/* ------------------------------------------------------------------- */
-/* ------------------------- NAVBAR ---------------------------------- */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
-.nav-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-}
-
-
-
-nav .nav-links ul li {
-  display: flex;
-  padding-left: 40px;
-  font-weight: 600;
-  color: #066621;
-}
-
-nav .nav-links ul li:hover {
-  color: rgb(6, 213, 51);
-  transform: transition(0.1s);
-  z-index: 1;
-}
-
-/* ------------------------- FIM - NAVBAR ---------------------------- */
-/* ------------------------------------------------------------------- */
-
-
-
-/* ------------------------------------------------------------------- */
-/* ------------------------- CONTATOS ---------------------------- */
+/* --- CONTATOS --- */
 .services {
   flex: 1;
   color: #232224;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 54px 14px;
-}
-
-
-.services-content {
-  margin-top: 30px;
+  margin-top: 1rem;
 }
 
 .services-content h3 {
@@ -109,7 +26,7 @@ nav .nav-links ul li:hover {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
 }
 
 .especialidades {
@@ -209,37 +126,3 @@ nav .nav-links ul li:hover {
 }
 
 
-/* ------------------------- FIM - CONTATOS ---------------------- */
-/* ------------------------------------------------------------------- */
-
-
-/* ------------------------------------------------------------------- */
-/* ------------------------- FOOTER ---------------------------------- */
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(18, 125, 62);
-  margin-top: 183px;
-}
-
-footer .footer__content {
-  display: flex;
-  text-align: center;
-  height: 50px;
-  max-width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .footer__content p {
-  display: inline-block;
-
-  color: white;
-  font-size: 12px;
-  max-width: 100%;
-
-}
-
-/* ------------------------- FIM - FOOTER ---------------------------- */
-/* ------------------------------------------------------------------- */

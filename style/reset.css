@@ -17,11 +17,77 @@ a {
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .container main {
   flex: 1;
   background-color: transparent;
   border: 0;
+}
+
+/* --- NAVBAR --- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 0 2rem 0;  
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 14rem 0 10rem;
+  width: 100%;
+}
+
+.nav-logo img {
+  max-width: 350px;
+}
+
+nav .nav-links ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+nav .nav-links ul li {
+  display: flex;
+  padding-left: 40px;
+  font-weight: 600;
+  color: #066621;
+}
+
+nav .nav-links ul li:hover {
+  color: rgb(6, 213, 51);
+  transform: transition(0.1s);
+  z-index: 1;
+}
+
+
+
+/* --- FOOTER --- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 125, 62);
+}
+
+footer .footer__content {
+  display: flex;
+  text-align: center;
+  height: 50px;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer__content p {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  max-width: 100%;
+
 }

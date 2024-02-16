@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------------- */
+/* ------------------------- RESET CSS ------------------------------- */
+@import url(/style/reset.css);
+/* --- FIM - RESET CSS --- */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.pdf {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.pdf embed{
+  width: 80%;
+  height: 800px;
+  border-radius: 10px;
+}
+

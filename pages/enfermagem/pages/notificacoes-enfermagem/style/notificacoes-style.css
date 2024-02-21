@@ -2,40 +2,6 @@
 @import url(/style/reset.css);
 
 
-/* --- NAVBAR --- */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
-.nav-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-}
-
-nav .nav-links ul {
-  display: flex;
-}
-
-nav .nav-links ul li {
-  display: flex;
-  padding-left: 40px;
-  font-weight: 600;
-  color: #066621;
-}
-
-nav .nav-links ul li:hover {
-  color: rgb(6, 213, 51);
-  transform: transition(0.1s);
-  z-index: 1;
-}
-
 /* --- WEB SERVICES --- */
 main {
   display: flex;
@@ -45,7 +11,7 @@ main {
 
 .services {
   flex: 1;
-  color: #232224;
+  color: rgb(2, 84, 2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,7 +32,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  max-width: 800px;
+  max-width: 550px;
   margin-bottom: 100px;
 }
 
@@ -94,6 +60,7 @@ main {
 .especialidade:hover {
   transform: scale(1.03);
   z-index: 1;
+  color: rgb(4, 180, 42);
 }
 
 .especialidade img {

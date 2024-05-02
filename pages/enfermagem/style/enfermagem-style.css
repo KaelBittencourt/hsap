@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 90%;
+  max-width: 80%;
   margin-bottom: 2rem;
 }
 
@@ -41,7 +41,6 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 0 44px 34px 44px;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -49,27 +48,25 @@
 .especialidade {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: white;
+  justify-content: center;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.5s;
+  width: 350px;
   padding: 20px;
-  width: 400px;
-  max-height: 150px;
 }
 
 .especialidade:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   z-index: 1;
   color: rgb(4, 180, 42);
 }
 
 .especialidade img {
   display: flex;
-  width: 90px;
+  width: 80px;
   max-width: 150px;
   transition: transform 0.5s;
   cursor: pointer;
@@ -78,10 +75,13 @@
 .especialidade-info {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
   width: 100%;
   background-color: #fff;
   z-index: 99;
+  gap: 2rem;
 }
 
 .especialidade-info button {
@@ -114,6 +114,7 @@
 .section-forms {
   background-color: rgb(127, 255, 172);
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding-top: 3rem;
@@ -128,10 +129,9 @@
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   transition: transform 0.5s;
-  min-width: 68%;
-  max-width: 50%;
+  min-width: 80%;
   margin-bottom: 3rem;
-  gap: 3rem;
+  gap: 8rem;
 }
 
 .conteiner-forms:hover {
@@ -197,21 +197,29 @@
 
 
 @media screen and (max-width: 1500px) {
-  .section-forms .conteiner-forms {
+  
+  .section-forms{
+    display: flex;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
+    justify-content: center;
   }
 
-  .section-forms .conteiner-forms img {
-    min-width: 350px;
-    margin: 0;
+  .section-forms .conteiner-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    min-width: 60%;
+    
   }
+
+  
 
   .text-conteiner {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    text-align: center;
   }
 }

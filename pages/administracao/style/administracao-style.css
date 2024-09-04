@@ -1,0 +1,225 @@
+/* ------------------------------------------------------------------- */
+/* ------------------------- RESET CSS ------------------------------- */
+@import url(/style/reset.css);
+/* --- FIM - RESET CSS --- */
+
+
+/* --- WEB SERVICES --- */
+
+
+.services {
+  flex: 1;
+  color: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.services-content h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: #066621;
+  font-weight: 600;
+}
+
+.services-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+.especialidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.especialidade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s;
+  width: 350px;
+  padding: 20px;
+}
+
+.especialidade:hover {
+  transform: scale(1.03);
+  z-index: 1;
+  color: rgb(4, 180, 42);
+}
+
+.especialidade img {
+  display: flex;
+  width: 80px;
+  max-width: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.especialidade-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  gap: 2rem;
+}
+
+.especialidade-info button {
+  color: #fff;
+  background-color: #066621;
+  border-radius: 4px;
+  border: 0;
+  transition: transform 0.1s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.especialidade button:hover {
+  background-color: rgb(5, 171, 41);
+  transform: transition(0.1s);
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .especialidades {
+    flex-direction: column;
+  }
+
+  .especialidade img {
+    max-width: 740px;
+  }
+}
+
+/* formulários */
+.section-forms {
+  background-color: rgb(127, 255, 172);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.conteiner-forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  transition: transform 0.5s;
+  min-width: 80%;
+  margin-bottom: 3rem;
+  gap: 8rem;
+}
+
+.conteiner-forms:hover {
+  transform: scale(1.01);
+  z-index: 1;
+}
+
+.formsconteiner-left {
+  display: flex;
+  flex-direction: row;
+}
+.formsconteiner-left img {
+  display: flex;
+  max-width: 600px;
+  min-width: 500px;
+  margin-left: 70px;
+}
+
+
+.text-conteiner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.text-conteiner h1 {
+  margin-bottom: 40px;
+  color: #066621;
+  font-size: 24px;
+}
+
+.text-conteiner p {
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #2f2f2fdd;
+  
+}
+
+.text-conteiner button {
+  color: #fff;
+  background-color: #066621;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  border: 0;
+  transition: transform 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.text-conteiner button:hover {
+  background-color: rgb(5, 171, 41);
+  transform: transition(0.1s);
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.divider {
+  width: 100%;
+  height: 40px;
+}
+
+
+@media screen and (max-width: 1500px) {
+  
+  .section-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-forms .conteiner-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    min-width: 60%;
+    
+  }
+
+  
+
+  .text-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,98 @@
+@import url(/style/reset.css);
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.services {
+  flex: 1;
+  color: #232224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services p {
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 30px;
+}
+
+.services-content h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: #066621;
+  font-weight: 600;
+}
+
+.services-content p {
+  font-weight: 600;
+  text-align: center;
+  max-width: 780px;
+}
+
+.especialidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10rem;
+  background-color: white;
+}
+
+.especialidade {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+.especialidade-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #066621;
+  z-index: 99;
+}
+
+.especialidade-info button {
+  color: #fff;
+  background-color: #066621;
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .especialidades {
+    flex-direction: column;
+  }
+
+  .especialidade img {
+    max-width: 740px;
+  }
+}
+
+iframe {
+  width: 100vw;
+  height: 56.25vw;
+  max-width: 161vh;
+  max-height: 91vh;
+  margin: auto;
+  
+}

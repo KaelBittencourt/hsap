@@ -1,7 +1,6 @@
 /* --- RESET CSS --- */
 @import url(/style/reset.css);
 
-
 /* --- WEB SERVICES --- */
 main {
   display: flex;
@@ -15,7 +14,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: baseline;  
+  justify-content: baseline;
 }
 
 .services-content h3 {
@@ -42,7 +41,7 @@ main {
   align-items: center;
   gap: 20px;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .especialidade {
@@ -74,13 +73,11 @@ main {
 .especialidade-info {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   padding: 20px;
   background-color: #fff;
   z-index: 99;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .especialidades {
@@ -91,9 +88,6 @@ main {
     max-width: 740px;
   }
 }
-
-
-
 
 /* --- FOOTER --- */
 footer {
@@ -119,4 +113,3 @@ footer .footer__content p {
   font-size: 12px;
   max-width: 100%;
 }
-

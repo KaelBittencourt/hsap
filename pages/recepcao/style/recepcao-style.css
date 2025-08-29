@@ -7,6 +7,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 1080px;
 }
 
 
@@ -15,6 +17,8 @@ main {
   flex: 1;
   color: rgb(71, 71, 71);
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   align-items: center;
 }
@@ -33,15 +37,16 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 90%;
+  max-width: 100%;
+  margin-bottom: 2rem;
 }
 
 .especialidades {
   display: flex;
+  width: 1280px;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 0 44px 34px 44px;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -49,27 +54,25 @@ main {
 .especialidade {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: white;
+  justify-content: center;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.5s;
+  width: 290px;
   padding: 20px;
-  width: 400px;
-  max-height: 150px;
 }
 
 .especialidade:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   z-index: 1;
   color: rgb(4, 180, 42);
 }
 
 .especialidade img {
   display: flex;
-  width: 90px;
+  width: 50px;
   max-width: 150px;
   transition: transform 0.5s;
   cursor: pointer;
@@ -78,10 +81,17 @@ main {
 .especialidade-info {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
   width: 100%;
   background-color: #fff;
   z-index: 99;
+  gap: 2rem;
+}
+
+.especialidade-info p {
+  font-size: 1rem;
 }
 
 .especialidade-info button {
@@ -99,6 +109,7 @@ main {
   transform: transition(0.1s);
   z-index: 1;
 }
+
 
 @media screen and (max-width: 768px) {
   .especialidades {
@@ -121,14 +132,12 @@ main {
 .conteiner-forms {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   transition: transform 0.5s;
-  min-width: 70%;
-  max-width: 70%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -143,9 +152,6 @@ main {
   flex-direction: row;
 }
 
-.img-conteiner {
-  margin-left: 60px;
-}
 
 .text-conteiner {
   padding: 50px;

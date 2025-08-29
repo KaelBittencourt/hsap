@@ -32,14 +32,12 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 0.5rem 0 2rem 0;  
 }
 
 .nav-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
   width: 1280px;
 }
 
@@ -50,7 +48,6 @@ nav {
 
 nav .nav-links ul {
   display: flex;
-  margin-right: 0px;
 }
 
 nav .nav-links ul li {

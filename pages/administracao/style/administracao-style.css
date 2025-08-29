@@ -7,6 +7,8 @@
 /* --- WEB SERVICES --- */
 
 
+
+
 .services {
   flex: 1;
   color: rgb(71, 71, 71);
@@ -67,7 +69,7 @@
 
 .especialidade img {
   display: flex;
-  width: 80px;
+  width: 50px;
   max-width: 150px;
   transition: transform 0.5s;
   cursor: pointer;
@@ -85,6 +87,10 @@
   gap: 2rem;
 }
 
+.especialidade-info p {
+  font-size: 1rem;
+}
+
 .especialidade-info button {
   color: #fff;
   background-color: #066621;
@@ -100,6 +106,7 @@
   transform: transition(0.1s);
   z-index: 1;
 }
+
 
 @media screen and (max-width: 768px) {
   .especialidades {

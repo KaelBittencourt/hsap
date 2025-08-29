@@ -32,12 +32,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  max-width: 90%;
+  max-width: 100%;
   margin-bottom: 2rem;
 }
 
 .especialidades {
   display: flex;
+  width: 1280px;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -54,7 +55,7 @@
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.5s;
-  width: 350px;
+  width: 290px;
   padding: 20px;
 }
 
@@ -66,7 +67,7 @@
 
 .especialidade img {
   display: flex;
-  width: 80px;
+  width: 50px;
   max-width: 150px;
   transition: transform 0.5s;
   cursor: pointer;
@@ -82,6 +83,10 @@
   background-color: #fff;
   z-index: 99;
   gap: 2rem;
+}
+
+.especialidade-info p {
+  font-size: 1rem;
 }
 
 .especialidade-info button {
@@ -129,9 +134,9 @@
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
   transition: transform 0.5s;
-  min-width: 80%;
+  min-width: 1280px;
   margin-bottom: 3rem;
-  gap: 8rem;
+  justify-content: space-around;
 }
 
 .conteiner-forms:hover {
@@ -143,11 +148,11 @@
   display: flex;
   flex-direction: row;
 }
+
 .formsconteiner-left img {
   display: flex;
   max-width: 400px;
   min-width: 300px;
-  margin-left: 70px;
 }
 
 
